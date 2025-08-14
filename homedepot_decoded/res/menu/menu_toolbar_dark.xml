@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_module_share_tap" android:id="@id/toolbar_share" android:visible="false" android:title="@string/toolbar_string_share" app:showAsAction="always" />
+    <item android:id="@id/toolbar_search" android:title="@string/toolbar_string_search" app:actionLayout="@layout/toolbar_search_icon_dark_action_layout" app:showAsAction="always" />
+    <item android:id="@id/toolbar_cart" android:title="@string/toolbar_string_cart" android:actionLayout="@layout/cart_menu_item_black" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/light_gray_f2" android:padding="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/App.Regular.Black.16" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thd_orange" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/splash_screen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_logo_splash_page" android:layout_centerInParent="true" />
+    <com.thehomedepotca.app.splash.activity.SplashProView android:id="@id/pro_extra_splash_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

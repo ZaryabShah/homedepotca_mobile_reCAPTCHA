@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/txtShop">
+        <menu>
+            <item android:id="@id/nav_for_the_pro" android:title="@string/menu_for_the_pro" />
+            <item android:id="@id/nav_value_centre" android:title="@string/menu_value_center" />
+            <item android:id="@id/nav_localad" android:title="@string/menu_weeklyflyers" />
+            <item android:id="@id/nav_gift_cards" android:title="@string/menu_gift_cards" />
+            <item android:id="@id/nav_store_finder" android:title="@string/menu_store_finder" />
+        </menu>
+    </item>
+    <item android:title="@string/services">
+        <menu>
+            <item android:id="@id/nav_installation_services" android:title="@string/menu_installation_services" />
+            <item android:id="@id/nav_tool_truck_rental" android:title="@string/menu_vehicle_rental" />
+            <item android:id="@id/nav_credit_cards" android:title="@string/menu_credit_cards" />
+        </menu>
+    </item>
+    <item android:title="@string/do_it_yourself">
+        <menu>
+            <item android:id="@id/nav_workshops" android:title="@string/menu_workshops" />
+        </menu>
+    </item>
+    <item android:title="@string/menu_account">
+        <menu>
+            <item android:id="@id/nav_create_account" android:title="@string/menu_sign_in" />
+            <item android:id="@id/nav_sign_out" android:title="@string/sign_out" />
+            <item android:id="@id/nav_order_status" android:title="@string/menu_order_status" />
+            <item android:id="@id/nav_recently_viewed" android:title="@string/menu_recently_viewed" />
+        </menu>
+    </item>
+    <item android:title="@string/menu_contact_us">
+        <menu>
+            <item android:id="@id/nav_faq" android:title="@string/menu_customer_support" />
+            <item android:id="@id/nav_email_sign_up" android:title="@string/menu_sign_up_emails" />
+            <item android:id="@id/nav_feedback" android:title="@string/feedback" />
+        </menu>
+    </item>
+    <item android:title="@string/menu_other">
+        <menu>
+            <item android:id="@id/nav_settings" android:title="@string/menu_settings" />
+            <item android:id="@id/nav_experimental" android:visible="false" android:title="@string/experimental_options" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mstPriceLayout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/wasPriceLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <TextView android:textColor="@color/c3" android:id="@id/wasTextView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/was" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/SmallBold" />
+            <TextView android:textColor="@color/c3" android:id="@id/wasPriceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$ 999" android:layout_toRightOf="@id/wasTextView" android:layout_alignParentTop="true" style="@style/SmallBold" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/specialBuyLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <TextView android:textColor="@color/c3" android:id="@id/specialBuyTextView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Special Buy " android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/SmallBold" />
+            <TextView android:textColor="@color/c3" android:id="@id/specialBuyPriceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$ 999" android:layout_toRightOf="@id/specialBuyTextView" android:layout_alignParentTop="true" style="@style/SmallBold" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/nowPricelayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="5.0dip" android:baselineAligned="false">
+            <TextView android:textColor="@color/dark_grey" android:layout_gravity="center" android:id="@id/nowPriceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="0.0" style="@style/Bold24" />
+            <TextView android:textColor="@color/dark_grey" android:layout_gravity="bottom" android:id="@id/nowPriceUnit" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text=" / each" android:layout_weight="0.0" style="@style/NormalBold" />
+        </LinearLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/saveLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:baselineAligned="false">
+            <TextView android:textColor="@color/alert_green" android:id="@id/saveTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save " android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/SmallBold" />
+            <TextView android:textColor="@color/alert_green" android:id="@id/savePercentageTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:layout_toRightOf="@id/saveTextView" android:layout_alignParentTop="true" style="@style/SmallBold" />
+            <LinearLayout android:id="@id/priceDetailsLayout" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:baselineAligned="false" android:layout_toRightOf="@id/savePercentageTextView">
+                <TextView android:textColor="@color/black" android:id="@id/priceDetailsTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="0.0dip" android:text="Price Details" style="@style/SmallBold" />
+                <ImageView android:id="@id/priceDetailsPlusIcon" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="-1.0dip" android:src="@drawable/plus_img" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/mapPriceLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/mstPriceLayout">
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@id/nowMapPricelayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:layout_marginBottom="2.0dip" android:baselineAligned="false">
+            <TextView android:textColor="@color/black" android:layout_gravity="center" android:id="@id/nowMapPriceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="" android:layout_weight="0.0" style="@style/Bold24" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black" android:layout_gravity="bottom" android:id="@id/nowMapPriceUnit" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text=" / each" android:layout_weight="0.0" style="@style/NormalBold" />
+        </LinearLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/mapCheckInCartLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:baselineAligned="false" android:layout_below="@id/nowMapPricelayout">
+            <TextView android:textColor="@color/c3" android:id="@id/mapCheckInCartTextView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/map_pricing_text" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/SmallBold" />
+            <ImageView android:id="@id/mapPriceDetailsPlusIcon" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/plus_img" android:layout_toRightOf="@id/mapCheckInCartTextView" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

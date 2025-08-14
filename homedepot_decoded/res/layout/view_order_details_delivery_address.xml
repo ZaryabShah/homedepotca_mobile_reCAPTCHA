@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:padding="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_address_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/order_details_delivery_address_header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/App.Bold.Black.14" />
+    <TextView android:id="@id/tv_address" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_regular" android:lineSpacingMultiplier="1.2" android:textAllCaps="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_address_header" style="@style/App.Regular.C3.14" />
+</androidx.constraintlayout.widget.ConstraintLayout>

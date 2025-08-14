@@ -1,0 +1,128 @@
+.class public abstract Lo2/k0;
+.super Landroidx/compose/ui/platform/q1;
+.source "ModifierNodeElement.kt"
+
+# interfaces
+.implements Lt1/h$b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Lt1/h$c;",
+        ">",
+        "Landroidx/compose/ui/platform/q1;",
+        "Lt1/h$b;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract e()Lt1/h$c;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TN;"
+        }
+    .end annotation
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    instance-of v1, p1, Lo2/k0;
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    if-nez v1, :cond_1
+
+    .line 9
+    .line 10
+    return v2
+
+    .line 11
+    :cond_1
+    const-string v1, "b"
+
+    .line 12
+    .line 13
+    invoke-static {p1, v1}, Lll/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 14
+    .line 15
+    .line 16
+    const-class v1, Lo2/k0;
+
+    .line 17
+    .line 18
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v3
+
+    .line 22
+    if-ne v1, v3, :cond_2
+
+    .line 23
+    .line 24
+    goto :goto_0
+
+    .line 25
+    :cond_2
+    move v0, v2
+
+    .line 26
+    :goto_0
+    if-nez v0, :cond_3
+
+    .line 27
+    .line 28
+    return v2
+
+    .line 29
+    :cond_3
+    check-cast p1, Lo2/k0;
+
+    .line 30
+    .line 31
+    const/4 p1, 0x0
+
+    .line 32
+    invoke-static {p1, p1}, Lll/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 33
+    .line 34
+    .line 35
+    move-result p1
+
+    .line 36
+    return p1
+.end method
+
+.method public abstract g()Lt1/h$c;
+.end method
+
+.method public final hashCode()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method

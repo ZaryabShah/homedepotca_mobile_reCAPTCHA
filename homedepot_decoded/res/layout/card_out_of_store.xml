@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:animateLayoutChanges="true">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/dark_grey" android:id="@id/titleTV" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_my_store_title" />
+                <View android:id="@id/divider_orange" android:background="@drawable/shape_orange_bar" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginLeft="0.0dip" />
+            </LinearLayout>
+            <TextView android:textColor="@color/selector_link" android:id="@id/change_store" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/designTopCTAButton_title" android:layout_alignParentRight="true" android:contentDescription="@string/cd_change_store" style="@style/Normal16" />
+        </RelativeLayout>
+        <include layout="@layout/divider_grey" />
+        <RelativeLayout android:id="@id/content_card_layout" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="3.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/map_holder" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/map_image" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip" android:src="@drawable/android_map_only_image" android:scaleType="fitCenter" />
+                        <ImageView android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/map_pin_only_image" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <TextView android:textColor="@color/dark_grey" android:gravity="center" android:layout_gravity="center" android:id="@id/distanceTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/store_content" android:paddingLeft="6.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_weight="2.0">
+                    <TextView android:textColor="@color/dark_grey" android:id="@id/storeTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_oos_name" style="@style/Bold14" />
+                    <TextView android:textSize="@dimen/txt_small" android:textColor="@color/c3" android:id="@id/addressTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" android:layout_marginEnd="@dimen/margin_xxxxlarge" />
+                    <TextView android:textColor="@color/selector_link" android:id="@id/phoneTV" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" style="@style/Normal14" />
+                    <TextView android:textSize="@dimen/txt_small" android:textColor="@color/c3" android:id="@id/hoursTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" />
+                    <TextView android:textSize="@dimen/txt_small" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tv_day_long_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" android:layout_marginBottom="@dimen/margin_xxxlarge" android:drawablePadding="@dimen/margin_small" android:layout_marginEnd="@dimen/margin_large" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/addressChevron" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_regular" android:layout_marginBottom="@dimen/margin_xlarge" android:src="@drawable/ic_arrow_forward" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/margin_xlarge" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

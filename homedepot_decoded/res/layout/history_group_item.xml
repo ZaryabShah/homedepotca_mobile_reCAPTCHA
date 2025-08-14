@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/light_grey_background_color" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@color/RGB85" android:id="@id/group_name_tv" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To Day" android:layout_centerVertical="true" />
+    <ToggleButton android:id="@id/group_toggleButton" android:background="@drawable/selector_plus_minus_toggle_button_action" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:checked="false" android:textOn="" android:textOff="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

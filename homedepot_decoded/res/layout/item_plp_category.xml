@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/light_gray_fff6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/vis_nav_items" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <HorizontalScrollView android:scrollbarSize="4.0dip" android:scrollbarThumbHorizontal="@drawable/shape_scrollbar_thumb" android:scrollbarTrackHorizontal="@drawable/shape_scrollbar_track" android:scrollbarStyle="outsideInset" android:id="@id/scroll_view_bottom" android:paddingTop="@dimen/vis_nav_item_padding" android:focusable="false" android:scrollbars="horizontal" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:fadeScrollbars="false" android:importantForAccessibility="noHideDescendants" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/scroll_view">
+        <LinearLayout android:orientation="horizontal" android:id="@id/vis_nav_items_bottom" android:layout_width="wrap_content" android:layout_height="0.0dip" />
+    </HorizontalScrollView>
+    <View android:id="@id/spacer" android:layout_width="fill_parent" android:layout_height="@dimen/margin_large" app:layout_constraintTop_toBottomOf="@id/scroll_view_bottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>

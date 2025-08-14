@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@id/full_screen" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brightcove_controls_enter_full_screen" android:contentDescription="@string/desc_enter_full_screen" style="@style/BorderlessButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

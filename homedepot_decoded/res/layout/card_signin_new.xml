@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_regular" android:animateLayoutChanges="true" android:layout_marginStart="@dimen/margin_large">
+        <TextView android:textColor="@color/dark_grey" android:id="@id/title_text_view" android:paddingBottom="@dimen/margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_sign_in" style="@style/rob_bold_16sp" />
+        <View android:id="@id/divider_orange" android:background="@drawable/shape_orange_bar" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    </LinearLayout>
+    <include layout="@layout/divider_grey" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_regular" android:layout_marginBottom="@dimen/margin_xlarge">
+        <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/card_myaccount_android" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+        <TextView android:textColor="@color/dark_grey" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/card_signin_message" />
+    </LinearLayout>
+    <include layout="@layout/divider_grey" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/card_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/txt_small" android:textColor="@color/thd_orange" android:id="@id/create_account_button" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/create_an_account" android:layout_weight="1.0" android:textAllCaps="false" />
+        <include layout="@layout/divider_grey_horizontal" />
+        <Button android:textSize="@dimen/txt_small" android:textColor="@color/thd_orange" android:id="@id/sign_in_button" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/menu_sign_in" android:layout_weight="1.0" android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:paddingBottom="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:background="@color/c18" android:paddingTop="@dimen/margin_xxlarge" android:paddingBottom="@dimen/margin_xxlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/recent_purchase_no_items" android:paddingStart="@dimen/margin_xlarge" android:paddingEnd="@dimen/margin_xlarge" style="@style/App.Regular.C3.14" />
+</FrameLayout>

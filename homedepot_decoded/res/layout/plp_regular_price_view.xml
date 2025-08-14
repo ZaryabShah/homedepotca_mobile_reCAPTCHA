@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/beforeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <TextView android:textColor="@color/c3" android:id="@id/plp_list_item_before_priceWAS" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/was" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/SmallBold" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/plp_pricing_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="2.0dip" android:baselineAligned="false">
+        <TextView android:textColor="@color/dark_grey" android:layout_gravity="center" android:id="@id/plp_list_item_price_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_weight="0.0" style="@style/Bold24" />
+        <TextView android:textColor="@color/black" android:layout_gravity="bottom" android:id="@id/plp_list_item_EA_Each_TV" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:layout_weight="0.0" style="@style/NormalBold" />
+        <TextView android:textColor="@color/black" android:layout_gravity="bottom" android:id="@id/pip_sqfootprice_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="[$price] / Sq. Ft" android:layout_weight="0.0" style="@style/Small" />
+        <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:id="@id/badgeone" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+        <ImageView android:id="@id/badgetwo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+    </LinearLayout>
+    <TextView android:textColor="@color/alert_green" android:id="@id/pip_savePrize" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save $XXX.XX(XX%)" style="@style/SmallBold" />
+</LinearLayout>

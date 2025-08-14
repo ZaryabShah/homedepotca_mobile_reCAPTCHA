@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="@dimen/home_product_rec_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/rootRL" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/productRecImage" android:layout_width="@dimen/home_product_rec_img_size" android:layout_height="@dimen/home_product_rec_img_size" android:contentDescription="@string/cd_product_image" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0sp" android:textColor="@color/dark_grey" android:ellipsize="end" android:id="@id/productName" android:paddingTop="20.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" />
+            <ImageView android:id="@id/noReviewImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ico_stars_noreviews_18" android:contentDescription="@string/cd_product_image" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ratingView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/cd_stars_rating">
+                <ImageView android:id="@id/star1" android:visibility="visible" android:layout_width="15.0dip" android:layout_height="18.0dip" android:src="@drawable/ico_stars_whole_18_org" android:importantForAccessibility="no" />
+                <ImageView android:id="@id/star2" android:visibility="visible" android:layout_width="15.0dip" android:layout_height="18.0dip" android:src="@drawable/ico_stars_whole_18_gry" android:importantForAccessibility="no" />
+                <ImageView android:id="@id/star3" android:visibility="visible" android:layout_width="15.0dip" android:layout_height="18.0dip" android:src="@drawable/ico_stars_whole_18_gry" android:importantForAccessibility="no" />
+                <ImageView android:id="@id/star4" android:visibility="visible" android:layout_width="15.0dip" android:layout_height="18.0dip" android:src="@drawable/ico_stars_whole_18_gry" android:importantForAccessibility="no" />
+                <ImageView android:id="@id/star5" android:visibility="visible" android:layout_width="15.0dip" android:layout_height="18.0dip" android:src="@drawable/ico_stars_whole_18_gry" android:importantForAccessibility="no" />
+                <TextView android:textColor="@color/dark_grey" android:id="@id/reviewCount" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NormalBold" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/dark_grey" android:id="@id/productPrice" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

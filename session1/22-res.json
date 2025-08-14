@@ -1,0 +1,1 @@
+{"nodes":[{"version":1,"name":"blocked","items":{"blocked":0}},{"version":1,"name":"pushFeaturesInUse","items":{"inbox":false}},{"version":1,"name":"appConfig","items":{"inApp":{"gateEventProcessingMs":1000},"event":{"activeEvents":[]},"endpoints":[],"deliveryReceipt":{"deliveryReceiptStatus":0,"gateDeliveryReceiptProcessingMs":5000}}}]}

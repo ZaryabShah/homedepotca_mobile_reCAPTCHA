@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/category_background" android:background="@drawable/wayfinder_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/thumb_scroller" android:layout_alignLeft="@id/table_of_contents" />
+    <ImageView android:id="@id/thumb_scroller" android:background="@drawable/ic_wayfinding_knob_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="-8.0dip" android:foreground="?android:selectableItemBackground" android:src="@drawable/ic_wayfinding_knob" android:layout_alignParentRight="true" android:contentDescription="@string/AND_storefront_wayfinder_accessibility" android:layout_marginEnd="-8.0dip" android:layout_alignParentEnd="true" android:elevation="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/table_of_contents" android:paddingLeft="32.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:layout_toLeftOf="@id/thumb_scroller" android:paddingStart="32.0dip" android:layout_marginEnd="32.0dip" />
+</RelativeLayout>

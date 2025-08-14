@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/App.Regular.Bluesteel.16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:background="?android:selectableItemBackground" android:padding="@dimen/margin_regular" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/recent_purchase_view_all" style="@style/App.Regular.Bluesteel.16" />
+</FrameLayout>

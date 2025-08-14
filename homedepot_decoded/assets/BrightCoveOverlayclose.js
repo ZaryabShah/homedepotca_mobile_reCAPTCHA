@@ -1,0 +1,1 @@
+document.getElementById('globalVidModalWnd').getElementsByClassName('close')[0].click()

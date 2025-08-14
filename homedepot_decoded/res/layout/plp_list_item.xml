@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/list_display_view_container" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/plp_ll_compare" android:background="@color/ce" android:visibility="visible" android:layout_width="50.0dip" android:layout_height="fill_parent">
+                <CheckBox android:id="@id/plp_cb_compare" android:paddingLeft="13.0dip" android:paddingTop="34.0dip" android:paddingRight="13.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:drawableTop="@drawable/selector_checkbox_compare" android:layout_centerInParent="true" />
+                <View android:id="@id/plp_compare_separtor_right" android:background="@color/divider_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                <View android:id="@id/plp_compare_spacer_bottom" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/plp_ll_main" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/plp_list_item_LL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                    <ImageView android:id="@id/plp_list_item_product_image_IV" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/imagesunavailable" android:scaleType="centerInside" android:layout_centerVertical="true" />
+                    <FrameLayout android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_centerVertical="true">
+                        <ImageView android:id="@id/bulkPricingImage" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginTop="65.0dip" android:src="@drawable/ic_bulk" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/plp_list_item_product_image_IV" android:layout_centerVertical="true">
+                        <TextView android:textColor="@color/c4" android:id="@id/collection_pod_instore_only_TV" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="In-Store Only" style="@style/Normal" />
+                        <TextView android:textColor="@color/c4" android:id="@id/collection_pod_validity_TV" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" style="@style/Normal" />
+                        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/product_discontinued_TV" android:background="@drawable/shape_solid_red_button" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:text="@string/discontinued" />
+                        <TextView android:textColor="@color/black" android:ellipsize="end" android:id="@id/plp_list_item_brand_product_name_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Brand name - Product name Product name Product name Product namenamename" android:maxLines="4" style="@style/SmallBold" />
+                        <RelativeLayout android:orientation="horizontal" android:id="@id/model_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                            <TextView android:id="@id/plp_list_item_model_TV" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Model: [nnnnnnn]" style="@style/Small" />
+                            <TextView android:id="@id/plp_list_item_sku_TV" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SKU# [nnnnnnn]" android:layout_toRightOf="@id/plp_list_item_model_TV" android:layout_alignBaseline="@id/plp_list_item_model_TV" style="@style/Small" />
+                        </RelativeLayout>
+                        <include android:id="@id/sskuMoreOptionsLL" android:visibility="gone" layout="@layout/ssku_more_options_layout" />
+                        <TextView android:textColor="@color/black" android:layout_gravity="center" android:id="@id/plp_list_item_pricing_message_TV" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="-4.0dip" android:text="Starting At" style="@style/Bold14" />
+                        <TextView android:textColor="@color/black" android:id="@id/plp_live_goods_message_TV" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/live_goods_price_msg" style="@style/Normal" />
+                        <include android:id="@id/regular_price_layout" android:visibility="visible" layout="@layout/plp_regular_price_view" />
+                        <include android:id="@id/mst_price_layout" android:visibility="gone" layout="@layout/plp_mst_view" />
+                        <LinearLayout android:id="@id/PLP_review_detail_list_item_ratingLH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="1.0dip">
+                            <ImageView android:id="@id/pip_review_detail_rating_star_1_img" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/star_on" />
+                            <ImageView android:id="@id/pip_review_detail_rating_star_2_img" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/star_on" />
+                            <ImageView android:id="@id/pip_review_detail_rating_star_3_img" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/star_on" />
+                            <ImageView android:id="@id/pip_review_detail_rating_star_4_img" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/star_on" />
+                            <ImageView android:id="@id/pip_review_detail_rating_star_5_img" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/star_on" />
+                            <TextView android:textColor="@color/dark_grey" android:layout_gravity="center" android:id="@id/review_count_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="[n]" style="@style/Normal16" />
+                        </LinearLayout>
+                        <ImageView android:id="@id/plp_no_review_IV" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-3.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/ico_stars_noreviews_18" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <View android:id="@id/plp_list_item_separtor" android:background="@color/ce" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <View android:id="@id/plp_list_item_bottom_spacer" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="55.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

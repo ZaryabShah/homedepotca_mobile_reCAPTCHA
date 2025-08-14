@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="left" android:id="@id/scan_result_header_RL" android:background="@drawable/selector_transparent_scan_header_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/scan_result_header_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/icon_scanner" />
+        <ImageView android:id="@id/scan_result_header_icon_success" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/icon_success" />
+        <ImageView android:id="@id/scan_result_header_icon_failure" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/icon_failed" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/scan_result_header_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scanning_for_dot" android:layout_marginStart="@dimen/oops_dialog_text_padding" android:layout_marginEnd="@dimen/oops_dialog_text_padding" style="@style/Small" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/checkinventorystatus_LL" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textColor="@color/black" android:layout_gravity="center" android:id="@id/scan_result_header_items" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="Check Inventory Near Me" style="@style/Small" />
+        <ImageView android:layout_gravity="center" android:id="@id/inventory_button_IV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/icon_plus" />
+    </LinearLayout>
+</RelativeLayout>

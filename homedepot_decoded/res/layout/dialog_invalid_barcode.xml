@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_regular" android:src="@drawable/ic_alert_large" app:tint="@color/red_error" />
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xxlarge" android:text="@string/scan_receipt_error_title" style="@style/App.Bold.Black.26" />
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xlarge" android:text="@string/scan_receipt_error_description" style="@style/App.Regular.Black.16" />
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xxlarge" android:text="@string/scan_receipt_error_tip_title" style="@style/App.Bold.Black.26" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xxlarge" android:text="@string/scan_receipt_error_tip_description" android:lineSpacingExtra="@dimen/margin_small" android:textAlignment="textStart" style="@style/App.Regular.Black.16" />
+    <Button android:id="@id/btn_ok" android:layout_width="fill_parent" android:layout_height="@dimen/cta_button_height" android:layout_marginTop="@dimen/margin_xxxlarge" android:text="@string/ok" android:textAllCaps="true" style="@style/PrimaryButtonStyle" />
+</LinearLayout>

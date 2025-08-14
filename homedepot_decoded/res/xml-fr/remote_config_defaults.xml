@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>isBarcodeDisabled</key>
+        <value>FALSE</value>
+    </entry>
+    <entry>
+        <key>isTokenCallDisabled</key>
+        <value>TRUE</value>
+    </entry>
+    <entry>
+        <key>disableCartMicroservices</key>
+        <value>FALSE</value>
+    </entry>
+    <entry>
+        <key>showProEditPayment</key>
+        <value>TRUE</value>
+    </entry>
+    <entry>
+        <key>disableWishList</key>
+        <value>FALSE</value>
+    </entry>
+    <entry>
+        <key>pipWebView</key>
+        <value>https://${env}.homedepot.ca/produit/${productId}</value>
+    </entry>
+    <entry>
+        <key>forTheProWebView</key>
+        <value>/fr/accueil/services-aux-pros.html</value>
+    </entry>
+    <entry>
+        <key>proXtraLearnMoreWebView</key>
+        <key>/fr/accueil/services-aux-pros/proextra/information-generale.html?hidden=true</key>
+    </entry>
+    <entry>
+        <key>joinProXtraWebView</key>
+        <key>/pro/accueil?hidden=true</key>
+    </entry>
+    <entry>
+        <key>proXtraRewardsWebView</key>
+        <value>/pro/recompenses-pro-extra?hidden=true</value>
+    </entry>
+    <entry>
+        <key>proTrackRewardAndSpendWebView</key>
+        <value>/pro/faire-le-suivi-des-recompenses-et-depenses?hidden=true</value>
+    </entry>
+    <entry>
+        <key>proEditShippingAddressWebView</key>
+        <value>/pro/adresses-pour-lexpedition?hidden=true</value>
+    </entry>
+    <entry>
+        <key>proEditProfileWebView</key>
+        <value>/fr/accueil/services-aux-pros/proextra/preferences.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>proEditPaymentMethodWebView</key>
+        <value>/pro/modes-de-paiement?hidden=true</value>
+    </entry>
+    <entry>
+        <key>contactUsWebView</key>
+        <value>/fr/accueil/service-a-la-clientele.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>homeServicesWebView</key>
+        <value>/services-a-domicile?hidden=true</value>
+    </entry>
+    <entry>
+        <key>createAccount</key>
+        <value>/moncompte?hidden=true</value>
+    </entry>
+    <entry>
+        <key>proB2BCreateAccountWebView</key>
+        <value>/pro/creer-un-compte-professionnel</value>
+    </entry>
+    <entry>
+        <key>recaptchaPrivacyWebView</key>
+        <value>https://policies.google.com/privacy?hl=fr</value>
+    </entry>
+    <entry>
+        <key>recaptchaTermsWebView</key>
+        <value>https://policies.google.com/terms?hl=fr</value>
+    </entry>
+    <entry>
+        <key>knowHowWebView</key>
+        <value>/fr/accueil/idees-instructions.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>valuecentreWebView</key>
+        <value>/fr/accueil/prix-d-entrepot-et-offres-speciales.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>feedbackWebView</key>
+        <value>/fr/accueil/contactez-nous.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>upgradeMessage</key>
+        <value>HomeDepot a mis à jour son application.</value>
+    </entry>
+    <entry>
+        <key>homeWebView</key>
+        <value>/fr/accueil.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>orderHistory2WebView</key>
+        <value>/moncompte/historique-des-commandes?hidden=true</value>
+    </entry>
+    <entry>
+        <key>profileInfo2WebView</key>
+        <value>/moncompte/informations-sur-le-profil?hidden=true</value>
+    </entry>
+    <entry>
+        <key>shippingAddressesWebView</key>
+        <value>/moncompte/adresses-pour-lexpedition?hidden=true</value>
+    </entry>
+    <entry>
+        <key>storeAppointmentsWebView</key>
+        <value>/moncompte/rendez-vous-en-magasin?hidden=true</value>
+    </entry>
+    <entry>
+        <key>paymentmethodWebView</key>
+        <value>/moncompte/modes-de-paiement?hidden=true</value>
+    </entry>
+    <entry>
+        <key>emailSubscriptionsWebView</key>
+        <value>/moncompte/abonnements-aux-courriels?hidden=true</value>
+    </entry>
+    <entry>
+        <key>emailSubscriptionWebView</key>
+        <value>/service-a-la-clientele/sabonner?hidden=true</value>
+    </entry>
+    <entry>
+        <key>proB2BMyAccountWebView</key>
+        <value>/pro/mon-compte?hidden=true</value>
+    </entry>
+    <entry>
+        <key>toolrentalWebView</key>
+        <value>/fr/accueil/location-d-outils-et-de-vehicules.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>creditServicesWebView</key>
+        <value>/fr/accueil/centre-de-credit.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>installServicesWebView</key>
+        <value>/fr/accueil/services-d-installation.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>proXtraWebView</key>
+        <value>/fr/accueil/services-aux-pros/proxtra.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>cartWebView</key>
+        <value>/panier?hidden=true</value>
+    </entry>
+    <entry>
+        <key>workshopsWebView</key>
+        <value>/fr/accueil/idees-instructions/ateliers.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>accountsummary</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/rewards </value>
+    </entry>
+    <entry>
+        <key>shippingaddresses</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/shippingAddresses?fields=${fields}&amp;lang=${lang}&amp;randomValue=${random_value} </value>
+    </entry>
+    <entry>
+        <key>submitreviews</key>
+        <value>https://api.bazaarvoice.com/data/submitreview.json</value>
+    </entry>
+    <entry>
+        <key>getquestionsandanswers</key>
+        <value>https://api.bazaarvoice.com/data/answers.json?apiversion=${apiVersion}&amp;Filter=${productId}&amp;Limit=${limit}&amp;Passkey=${passkey}&amp;Offset=${offset}&amp;Sort=${sort}&amp;include=questions</value>
+    </entry>
+    <entry>
+        <key>storesearch</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/stores/${storeId}?fields=SPA&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>forgotpassword</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/forgottenpasswordtokens?catalogVersion=Online&amp;lang=${lang}&amp;userId=${user_id} </value>
+    </entry>
+    <entry>
+        <key>relatedparts</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/products/${itemid}/getRelatedParts?productCode=${code}&amp;postalCode=${postal} </value>
+    </entry>
+    <entry>
+        <key>logout</key>
+        <value>https://${apienv}.homedepot.ca/auth/v1/logout</value>
+    </entry>
+    <entry>
+        <key>proxtraid</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/barcode </value>
+    </entry>
+    <entry>
+        <key>reviews</key>
+        <value>https://api.bazaarvoice.com/data/reviews.json?apiversion=${apiVersion}&amp;Filter=${filter}&amp;Stats=${stats}&amp;Include=${include}&amp;Limit=${limit}&amp;Passkey=${passkey}&amp;Offset=${offset}&amp;Sort=${sort}</value>
+    </entry>
+    <entry>
+        <key>flyerproducts</key>
+        <value> https://api.flipp.com/flyerkit/v3.0/publication/${publication}/products?access_token=f8ddc176&amp;display_type=1,3,5 </value>
+    </entry>
+    <entry>
+        <key>recentlypurchased</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/purchases?lang=${lang}&amp;currentPage=${current_page}&amp;pageSize=${page_size}&amp;fromDate=${from_date}&amp;toDate=${to_date}&amp;sort=${sort}&amp;sortField=${sort_field}&amp;filterField=${filter_field}&amp;filterQuery=${filter_query} </value>
+    </entry>
+    <entry>
+        <key>productsinfo</key>
+        <value>https://${env}.homedepot.ca/api/productsvc/v1/products/?store=${storeId}&amp;lang=${lang}&amp;products=${products}</value>
+    </entry>
+    <entry>
+        <key>flyerpages</key>
+        <value> https://api.flipp.com/flyerkit/v3.0/publication/${publication}/pages?access_token=f8ddc176 </value>
+    </entry>
+    <entry>
+        <key>productupc</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/products/${upc}?codeType=ean&amp;lang=${lang}&amp;localized/${storeId} </value>
+    </entry>
+    <entry>
+        <key>namepurchase</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/purchases/${oid}/job?type=POS&amp;jobName=${name}&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>shopbydept</key>
+        <value>https://${apienv}.homedepot.ca/api/search/v1/search?category=${query}&amp;store=${storeId}&amp;page=${startindex}&amp;lang=${lang}&amp;superSku=false&amp;articleLookup=true</value>
+    </entry>
+    <entry>
+        <key>homebanners</key>
+        <value>https://${env}.homedepot.ca/${lang}/${home}.model.v2.json</value>
+    </entry>
+    <entry>
+        <key>productrecommendations</key>
+        <value>https://${env}.homedepot.ca/api/rec/v1/recommendations?scheme=&amp;relationship=&amp;trackingId=66734860709106999&amp;categoryId=&amp;store={localizedPOS}&amp;exProductCodes=&amp;products=&amp;pageId=&amp;fields=FULL&amp;searchTerm=&amp;catalogVersion=Online&amp;slang=${lang}</value>
+    </entry>
+    <entry>
+        <key>storedetails</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/stores?fields=SPA&amp;lang=${lang}&amp;pageSize=${page_size}&amp;latitude=${lat}&amp;longitude=${lon}&amp;query=${query} </value>
+    </entry>
+    <entry>
+        <key>productstoresfulfillment</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/products/${itemId}/stock/?fields=FULL&amp;catalogVersion=Online&amp;lang=${lang}&amp;productCode=${code}&amp;minStockThreshold=0&amp;${location}${bossOption} </value>
+    </entry>
+    <entry>
+        <key>qnasubmitquestion</key>
+        <value>https://api.bazaarvoice.com/data/submitquestion.json</value>
+    </entry>
+    <entry>
+        <key>appliancepostalcodeverification</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/products/${productId}/getApplianceAvailability/${postalcode}?catalogVersion=Online&amp;lang=${lang}&amp;store=${storeId} </value>
+    </entry>
+    <entry>
+        <key>posorderdetails</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/receipts/purchaseDetail?type=${otype}&amp;store=${storeId}&amp;code=${oid}&amp;fields=${fields}&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>paymentdetails</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/creditcardpaymentdetails?lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>productinfo</key>
+        <value> https://${env}.homedepot.ca/api/catalogsvc/v1/products/${itemid}?lang=${lang}&amp;storeId=${storeId} </value>
+    </entry>
+    <entry>
+        <key>giftCardWebView</key>
+        <value>/fr/accueil/cartes-cadeaux.html?hidden=true</value>
+    </entry>
+    <entry>
+        <key>newcart</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/carts/?catalogVersion=Online&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>fbtproductinfo</key>
+        <value> https://${env}.homedepot.ca/api/fbtsvc/v1/fbt/products/${itemid}/store/${storeId}?checkStockAndPrice=${checkstockandprice}&amp;lang=${lang}&amp;noOfSupportingArticles=3 </value>
+    </entry>
+    <entry>
+        <key>productlocalizedinfo</key>
+        <value> https://${env}.homedepot.ca/api/productsvc/v1/products/${itemid}/store/${localizedpos}?lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>login</key>
+        <value>https://${apienv}.homedepot.ca/auth/v1/login</value>
+    </entry>
+    <entry>
+        <key>v4login</key>
+        <value>https://${apienv}.homedepot.ca/auth/v4/login</value>
+    </entry>
+    <entry>
+        <key>v1token</key>
+        <value>https://${apienv}.homedepot.ca/auth/v1/token</value>
+    </entry>
+    <entry>
+        <key>v4token</key>
+        <value>https://${apienv}.homedepot.ca/auth/v4/token</value>
+    </entry>
+    <entry>
+        <key>useTokenAPIForRefreshLogin</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>pipmediaurl</key>
+        <value> ${imgServer}${productId}_image_set?${pipParams} </value>
+    </entry>
+    <entry>
+        <key>onlineshippingestimation</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/products/${productId}/estimateShipping/${postalcode}?quantity=${qty}&amp;catalogVersion=Online&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>profileuserpro</key>
+        <value>https://${env}.homedepot.ca/homedepotcacustomer/v1/pro/${user_id}</value>
+    </entry>
+    <entry>
+        <key>oauthtoken</key>
+        <value>https://${env}.homedepot.ca/authorizationserver/oauth/token</value>
+    </entry>
+    <entry>
+        <key>qnaques</key>
+        <value>https://api.bazaarvoice.com/data/questions.json?apiversion=${apiVersion}&amp;Filter=${filter}&amp;Limit=${limit}&amp;Passkey=${passkey}&amp;Offset=${offset}&amp;Sort=${sort}&amp;Search=${search}</value>
+    </entry>
+    <entry>
+        <key>questions</key>
+        <value>https://api.bazaarvoice.com/data/questions.json?apiversion=${apiVersion}&amp;Filter=${filter}&amp;Limit=${limit}&amp;Passkey=${passkey}&amp;Offset=${offset}&amp;Sort=${sort}</value>
+    </entry>
+    <entry>
+        <key>flyerpublications</key>
+        <value> https://api.flipp.com/flyerkit/v3.0/publications/homedepotCanada?postal_code=${postal}&amp;locale={lang}&amp;access_token=f8ddc176 </value>
+    </entry>
+    <entry>
+        <key>qnastats</key>
+        <value>https://api.bazaarvoice.com/data/products.json?apiversion=${apiVersion}&amp;Filter=${filter}&amp;Stats=${stats}&amp;Passkey=${passkey}</value>
+    </entry>
+    <entry>
+        <key>flyercategories</key>
+        <value> https://api.flipp.com/flyerkit/v3.0/publication/${publication}/categories?access_token=f8ddc176 </value>
+    </entry>
+    <entry>
+        <key>qnaanswer</key>
+        <value>https://api.bazaarvoice.com/data/answers.json?apiversion=${apiVersion}&amp;Filter=${filter}&amp;Limit=${limit}&amp;Passkey=${passkey}&amp;Offset=${offset}&amp;Sort=${sort}</value>
+    </entry>
+    <entry>
+        <key>submitreviewphoto</key>
+        <value>https://api.bazaarvoice.com/data/uploadphoto.json</value>
+    </entry>
+    <entry>
+        <key>bodfsdeliveryestimation</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/products/${productId}/deliveryavailability/${postalcode}?qty=${qty}&amp;catalogVersion=Online&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>visualnav</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/catalogs/${keywordorcategory}/categories/visualnav/${searchtermorcode}?navType=${navtype}&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>localizaton</key>
+        <value>https://${env}.homedepot.ca/api/localization/v1/location?lang=en</value>
+    </entry>
+    <entry>
+        <key>topresults</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/search/searchTopResults?catalogVersion=Online&amp;query=${searchterm}&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>shopby</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/catalogs/homedepotcaContentCatalog/navigation.json?lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>typeaheads</key>
+        <value>https://${apienv}.homedepot.ca/search/v1/suggestions/keywords?query=${searchterm}&amp;lang=${lang}</value>
+    </entry>
+    <entry>
+        <key>addreceipt</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/receipts?lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>homebannerspro</key>
+        <value> https://${env}.homedepot.ca/content/experience-fragments/homedepot/mobile-pro-home-page/${lang}.model.json </value>
+    </entry>
+    <entry>
+        <key>addtocart</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/carts/${cartid}/entries?fields=FULL&amp;catalogVersion=Online&amp;lang=${lang}&amp;localizedPOS=${storeId} </value>
+    </entry>
+    <entry>
+        <key>onlineorderdetails</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/orders/${oid}?orderType=${otype}&amp;store=${storeId}&amp;fields=${fields}&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>productsbasicinfo</key>
+        <value>https://${env}.homedepot.ca/api/catalogsvc/v1/products/summary?lang=${lang}&amp;products=${products}</value>
+    </entry>
+    <entry>
+        <key>altproductimage</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/products/${itemid}?lang=${lang}&amp;catalogVersion=Online </value>
+    </entry>
+    <entry>
+        <key>productrecommendations</key>
+        <value>https://${env}.homedepot.ca/api/rec/v1/recommendations?scheme=${scheme}&amp;relationship=certona&amp;trackingId=66734860709106999&amp;categoryId=${categoryId}&amp;store=${storeId}&amp;exProductCodes=&amp;products=${products}&amp;cartId=${cartId}&amp;pageId=&amp;fields=FULL&amp;searchTerm=&amp;catalogVersion=Online&amp;lang=${lang}</value>
+    </entry>
+    <entry>
+        <key>guestOrderDetailsWebView</key>
+        <value>/consultation-des-commandes-en-tant-quinvite?hidden=true</value>
+    </entry>
+    <entry>
+        <key>keywordsearch</key>
+        <value>https://${env}.homedepot.ca/api/search/v1/search</value>
+    </entry>
+    <entry>
+        <key>productstoresfulfillment</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/products/${itemId}/stock/?fields=FULL&amp;catalogVersion=Online&amp;lang=${lang}&amp;productCode=${code}&amp;minStockThreshold=0&amp;${location}${bossOption} </value>
+    </entry>
+    <entry>
+        <key>petadelivery</key>
+        <value>https://${apienv}.homedepot.ca/delivery/v1/delivery/options</value>
+    </entry>
+    <entry>
+        <key>addappliancetocart</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/users/${user_id}/carts/${cartid}/addAppliance/${postal} </value>
+    </entry>
+    <entry>
+        <key>curbsidepickup</key>
+        <value>https://${env}.homedepot.ca/curbside/api/curbside</value>
+    </entry>
+    <entry>
+        <key>pvpappliancedeliveryemail</key>
+        <value>prodirect_appliances@homedepot.com</value>
+    </entry>
+    <entry>
+        <key>buyagain</key>
+        <value> https://${env}.homedepot.ca/homedepotcaorder/v1/buy-again-products/${customer_id}?isPro=${is_pro}&amp;currentPage=${current_page}&amp;pageSize=${page_size}&amp;storeId=${storeId}&amp;dateFrom=${from_date}&amp;dateTo=${to_date}&amp;inStock=${in_stock}&amp;filterField=${filter_field}&amp;filterQuery=${filter_query}&amp;zloyCustomerId=${zloy_customer_id}&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>createcart</key>
+        <value>https://${env}.homedepot.ca/api/cartsvc/v1/carts</value>
+    </entry>
+    <entry>
+        <key>patchcart</key>
+        <value>https://${env}.homedepot.ca/api/cartsvc/v1/carts/${cartId}?lang=${lang}</value>
+    </entry>
+    <entry>
+        <key>mergecart</key>
+        <value>https://${env}.homedepot.ca/api/cartsvc/v1/carts?oldCartId=${oldCartId}</value>
+    </entry>
+    <entry>
+        <key>getcartcount</key>
+        <value>https://${env}.homedepot.ca/api/cartsvc/v1/carts/${cartId}/count</value>
+    </entry>
+    <entry>
+        <key>getcart</key>
+        <value> https://${env}.homedepot.ca/api/cartsvc/v1/carts/${cartId}?defaultPostalCode=${postalcode} </value>
+    </entry>
+    <entry>
+        <key>addtocartentries</key>
+        <value>https://${env}.homedepot.ca/api/cartsvc/v1/carts/${cartId}/entries</value>
+    </entry>
+    <entry>
+        <key>addprotectionplan</key>
+        <value> https://${env}.homedepot.ca/api/cartsvc/v1/carts/${cartId}/entries/${entryId}/services?type=APPLIANCE&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>addons</key>
+        <value>https://${env}.homedepot.ca/api/productaddonsvc/v1/addons?products=${productId}&amp;postal=${postalcode}&amp;filter=hdpp&amp;lang=${lang}</value>
+    </entry>
+    <entry>
+        <key>addtocartbatchentries</key>
+        <value>https://${env}.homedepot.ca/api/cartsvc/v1/carts/${cartId}/batch-entries</value>
+    </entry>
+    <entry>
+        <key>fulfillmentoptions</key>
+        <value>https://${env}.homedepot.ca/api/cartsvc/v1/carts/${cartId}/fulfillment-options </value>
+    </entry>
+    <entry>
+        <key>pvpinfo</key>
+        <value> https://${env}.homedepot.ca/api/productsvc/v1/products-localized-basic?products=${products}&amp;store=${storeId}&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>aem</key>
+        <value>https://${env}.homedepot.ca/content/${path}?lang=${lang}</value>
+    </entry>
+    <entry>
+        <key>categorysearch</key>
+        <value>https://${env}.homedepot.ca/api/search/v1/search?category=${categoryId}&amp;store=${storeId}&amp;lang=${lang}&amp;filter=${filter}&amp;sort=${sort}</value>
+    </entry>
+    <entry>
+        <key>getwishlist</key>
+        <value>https://${apienv}.homedepot.ca/customer-wishlist-service/v1/wishlist/default</value>
+    </entry>
+    <entry>
+        <key>modifywishlistitem</key>
+        <value>https://${apienv}.homedepot.ca/customer-wishlist-service/v1/wishlist/${wishlistId} </value>
+    </entry>
+    <entry>
+        <key>getwishlistcodes</key>
+        <value> https://${apienv}.homedepot.ca/customer-wishlist-service/v1/wishlist/${wishlistId}/codes </value>
+    </entry>
+    <entry>
+        <key>getwishlistdetails</key>
+        <value> https://${apienv}.homedepot.ca/customer-wishlist-service/v1/wishlist/${wishlistId}/details?store={storeId}&amp;page=${current_page}&amp;pageSize=${page_size}&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>supportedOSMessage</key>
+        <value>Vous utilisez un système d'exploitation non pris en charge. Pour continuer à utiliser
+            notre application, veuillez effectuer une mise à jour vers Android SUPPORTED_VERSION ou
+            une version ultérieure. </value>
+    </entry>
+    <entry>
+        <key>supportedOSVersion</key>
+        <value>7</value>
+    </entry>
+    <entry>
+        <key>pvpApplianceBetterPricingQuantityLimit</key>
+        <value>49</value>
+    </entry>
+    <entry>
+        <key>pvpdeliveryavailability</key>
+        <value> https://${env}.homedepot.ca/homedepotcacommercewebservices/v2/homedepotca/products/vendordeliveryavailability?product={productId}&amp;postalCode=${postalcode}&amp;lang=${lang} </value>
+    </entry>
+    <entry>
+        <key>minimumAndroidVersion</key>
+        <value>12.3.1</value>
+    </entry>
+    <entry>
+        <key>applianceDeliveryChecklist</key>
+        <value> /content/dam/homedepot/pdf/static/major-appliance-delivery-faq/Home%20Depot%20Appliance%20Delivery%20Checklist_Fr.pdf </value>
+    </entry>
+    <entry>
+        <key>deliveryInstallationFaq</key>
+        <value>/fr/accueil/service-a-la-clientele/faq-livraison-de-gros-electromenagers.html</value>
+    </entry>
+    <entry>
+        <key>renovatingMessage</key>
+        <value>&lt;b>Nous rénovons!&lt;/b> Certaines informations/fonctionnalités peuvent être indisponibles jusqu’au 11 octobre. Nous nous excusons de ce contretemps.</value>
+    </entry>
+</defaultsMap>

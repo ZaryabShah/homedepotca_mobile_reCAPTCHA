@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_scan" android:background="?android:selectableItemBackground" android:padding="@dimen/margin_xxlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_receipt_scan_cta" android:drawablePadding="@dimen/margin_xlarge" app:drawableStartCompat="@drawable/ic_barcode_bordered" style="@style/App.Regular.Black.16" />
+    <TextView android:id="@id/tv_manual" android:background="?android:selectableItemBackground" android:padding="@dimen/margin_xxlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_receipt_enter_manually_cta" android:drawablePadding="@dimen/margin_xlarge" app:drawableStartCompat="@drawable/ic_keyboard" style="@style/App.Regular.Black.16" />
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:id="@id/tv_cancel" android:background="?android:selectableItemBackground" android:padding="@dimen/margin_xxlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_receipt_cancel_cta" android:drawablePadding="@dimen/margin_xlarge" app:drawableStartCompat="@drawable/ic_close_x" style="@style/App.Regular.Black.16" />
+</LinearLayout>

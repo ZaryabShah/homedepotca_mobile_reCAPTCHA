@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/selector_icon_navigation_home" android:id="@id/action_home" android:title="@string/home" />
+    <item android:icon="@drawable/selector_icon_navigation_shop" android:id="@id/action_shop" android:title="@string/shop" />
+    <item android:icon="@drawable/selector_icon_navigation_account" android:id="@id/action_account" android:title="@string/account" />
+    <item android:icon="@drawable/selector_icon_navigation_my_list" android:id="@id/action_my_list" android:title="@string/my_list" />
+</menu>

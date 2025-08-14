@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/button_filter_sort" android:background="@drawable/layer_list_filtersort_button_background_white" android:layout_width="wrap_content" android:layout_height="@dimen/margin_xxxlarge" android:text="@string/filter_sort" android:textAllCaps="false" android:textAlignment="center" android:paddingStart="@dimen/margin_large" android:paddingEnd="@dimen/margin_large" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/rob_reg_14sp" />
+    <TextView android:textColor="@color/c3" android:id="@id/tv_total_products" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/button_filter_sort" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/button_filter_sort" style="@style/rob_reg_14sp" />
+    <include android:id="@id/refinement_facets" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xlarge" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/button_filter_sort" layout="@layout/view_refinement_scroller" />
+</merge>

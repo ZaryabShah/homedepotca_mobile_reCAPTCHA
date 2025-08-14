@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/qna_answer_root_rl" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/qna_answer_header_layout" android:background="@color/light_grey_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <TextView android:textColor="#ff333333" android:id="@id/qna_answer_nickname_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="[nickname]" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/Bold14" />
+            <TextView android:textColor="#ff777777" android:id="@id/qna_answer_location_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="[Display City, State Abrev]" android:layout_alignBaseline="@id/qna_answer_nickname_tv" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/Bold14" />
+            <LinearLayout android:orientation="vertical" android:id="@id/multi_line_badges_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/qna_answer_nickname_tv" />
+            <ImageView android:id="@id/qna_answer_company_logo_iv" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/imagesunavailable" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textColor="#ff333333" android:id="@id/qna_answer_date_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="[Month Day, Year]" style="@style/Small" />
+        <TextView android:textColor="#ff333333" android:id="@id/qna_answer_text_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="[answer text]" android:layout_below="@id/qna_answer_nickname_tv" style="@style/Normal" />
+        <LinearLayout android:orientation="vertical" android:id="@id/view_more_less_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <View android:background="@color/grey_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <include android:id="@id/qna_viewmore" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_more" />
+            <include android:id="@id/qna_viewless" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_less" />
+            <View android:background="@color/grey_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_qna_answer_thumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="5.0dip" />
+        <TextView android:textStyle="italic" android:textColor="#ff333333" android:id="@id/qna_answer_helpfulness_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="[n] of [m] people found this answer helpful" style="@style/Normal" />
+        <View android:id="@id/divider" android:background="@color/grey_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="20.0dip" android:layout_below="@id/qna_product_image" />
+    </LinearLayout>
+</RelativeLayout>

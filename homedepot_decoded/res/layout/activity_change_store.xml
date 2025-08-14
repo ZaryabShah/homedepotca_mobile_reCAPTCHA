@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/cs_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+            <ImageButton android:id="@id/cs_back" android:background="@drawable/ic_arrow_back_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/cd_navigate_back" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cart_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/cs_back" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true">
+                <ImageButton android:id="@id/cs_cart" android:background="@drawable/ic_cart_black" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/shortcut_long_label" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/cs_cart_count" android:background="@drawable/shape_cart_counter_orange_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageButton android:id="@id/cs_gps" android:background="@drawable/ic_my_location_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_toLeftOf="@id/cart_layout" android:layout_centerVertical="true" />
+            <EditText android:textSize="14.0dip" android:gravity="center_vertical" android:id="@id/cs_edittext" android:background="@color/transparent" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:hint="@string/city_province_postal_code_or_store" android:layout_toLeftOf="@id/cs_gps" android:layout_toRightOf="@id/cs_back" android:inputType="textFilter|textNoSuggestions" android:imeOptions="actionSearch" android:imeActionLabel="Search" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/cs_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_navigation_layout" android:layout_below="@id/cs_toolbar" />
+    <include layout="@layout/intercept_accessibility" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_navigation_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="bottom" android:id="@id/bottom_navigation" android:background="?android:windowBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants" android:elevation="@dimen/elevation_bottom_nav" app:itemIconTint="@color/selector_bottom_nav_colors" app:itemTextColor="@color/selector_bottom_nav_colors" app:labelVisibilityMode="labeled" app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior" app:menu="@menu/menu_bottom_nav" />
+    </LinearLayout>
+</RelativeLayout>

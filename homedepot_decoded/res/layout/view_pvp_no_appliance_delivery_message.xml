@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:background="@color/white" android:padding="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pvp_free_shipping_non_appliance_message" style="@style/App.Regular.DarkGrey.12"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

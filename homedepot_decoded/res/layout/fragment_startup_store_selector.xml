@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/start_up_store_search_main_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/store_selectore_parent_LL" android:background="@drawable/selector_transparent_white_back" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+        <include android:id="@id/loc_header" layout="@layout/header_startup_store" />
+        <include layout="@layout/divider_view_horizontal" />
+        <include android:id="@id/store_search_error_or_warning_layout" android:visibility="visible" layout="@layout/layout_error_or_warning" />
+        <TextView android:textColor="@color/dark_grey" android:id="@id/loc_gps_info_tv" android:padding="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loc_gps_enable_info" style="@style/Bold16" />
+        <ListView android:id="@id/start_up_store_search_listView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/grey_divider" android:dividerHeight="0.5dip" />
+    </LinearLayout>
+</LinearLayout>

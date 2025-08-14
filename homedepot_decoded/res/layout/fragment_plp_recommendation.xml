@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/plp_recommendation_layout" android:background="@drawable/selector_transparent_white_back" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textColor="@color/dark_grey" android:id="@id/plp_recommendation_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="" style="@style/Bold16" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/plp_recommendation_recyclerview" android:layout_width="fill_parent" android:layout_height="255.0dip" android:layout_marginBottom="1.0dip" android:layout_below="@id/plp_recommendation_textview" />
+        <ProgressBar android:id="@id/plp_recommendation_progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

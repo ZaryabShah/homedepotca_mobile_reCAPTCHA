@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_image" android:padding="2.0dip" android:clickable="true" android:layout_width="@dimen/pip_product_item_size" android:layout_height="@dimen/pip_product_item_size" android:foreground="?selectableItemBackgroundBorderless" android:scaleType="centerInside" android:contentDescription="@string/cd_product_image" android:layout_marginStart="@dimen/size_6dp" android:layout_marginEnd="@dimen/size_6dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@id/audio_tracks" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brightcove_controls_audio_tracks" android:contentDescription="@string/desc_audio_tracks" style="@style/BorderlessButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

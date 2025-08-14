@@ -1,0 +1,17 @@
+{
+  "nextRequestWaitMillis": "30000",
+  "logResponseDetails": [
+    {
+      "logRequestIndex": 0,
+      "responseAction": "DELETE_REQUEST"
+    },
+    {
+      "logRequestIndex": 1,
+      "responseAction": "DELETE_REQUEST"
+    },
+    {
+      "logRequestIndex": 2,
+      "responseAction": "DELETE_REQUEST"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/toolbar_search" android:title="" android:actionLayout="@drawable/ic_search_white" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_cart_white" android:id="@id/toolbar_cart" android:title="@string/toolbar_string_cart" android:actionLayout="@layout/cart_menu_item_white" app:showAsAction="always" />
+</menu>

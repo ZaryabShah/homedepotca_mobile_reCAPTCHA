@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@id/filter_rating_star_1_left_view" android:layout_width="10.0dip" android:layout_height="36.0dip" />
+        <CheckBox android:id="@id/filter_rating_checkbox" android:clickable="true" android:layout_width="50.0dip" android:layout_height="36.0dip" android:button="@drawable/selector_checkbox_sl" />
+        <View android:id="@id/filter_rating_star_2_left_view" android:layout_width="20.0dip" android:layout_height="36.0dip" />
+        <ImageView android:id="@id/filter_rating_star_1_img" android:paddingRight="10.0dip" android:visibility="visible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ico_stars_whole_18_org" />
+        <ImageView android:id="@id/filter_rating_star_2_img" android:paddingRight="10.0dip" android:visibility="visible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ico_stars_whole_18_org" />
+        <ImageView android:id="@id/filter_rating_star_3_img" android:paddingRight="10.0dip" android:visibility="visible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ico_stars_whole_18_org" />
+        <ImageView android:id="@id/filter_rating_star_4_img" android:paddingRight="10.0dip" android:visibility="visible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ico_stars_whole_18_org" />
+        <ImageView android:id="@id/filter_rating_star_5_img" android:paddingRight="10.0dip" android:visibility="visible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ico_stars_whole_18_org" />
+        <TextView android:gravity="right|center" android:layout_gravity="right" android:id="@id/filter_rating_count" android:paddingLeft="15.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+    </LinearLayout>
+    <View android:background="@color/light_grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+</LinearLayout>

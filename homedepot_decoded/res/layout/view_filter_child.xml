@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RatingBar android:id="@id/rb_rating" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:layout_marginStart="@dimen/margin_xlarge" style="?android:ratingBarStyleSmall" />
+    <TextView android:textColor="@color/RGB128" android:id="@id/title" android:paddingTop="@dimen/margin_regular" android:paddingBottom="@dimen/margin_regular" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/margin_xlarge" style="@style/Normal18" />
+    <TextView android:textColor="@color/RGB168" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Normal14" />
+    <ImageView android:id="@id/tick" android:background="@drawable/ic_checkbox_on" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_xlarge" android:layout_marginEnd="@dimen/margin_xlarge" />
+</LinearLayout>

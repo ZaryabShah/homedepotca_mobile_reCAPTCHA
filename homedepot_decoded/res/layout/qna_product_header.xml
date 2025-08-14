@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pdp_product_info" android:background="@color/white" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/pdp_top" />
+    <View android:id="@id/divider" android:background="@color/grey_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

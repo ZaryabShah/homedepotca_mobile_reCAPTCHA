@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/group" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_separator" android:background="@color/light_grey" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/dark_grey" android:id="@id/title" android:paddingTop="@dimen/margin_xlarge" android:paddingBottom="@dimen/margin_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_xlarge" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Bold16" />
+    <ImageView android:id="@id/symbol" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_plus" android:layout_marginEnd="@dimen/margin_xlarge" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/bottom_separator" android:background="@color/light_grey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

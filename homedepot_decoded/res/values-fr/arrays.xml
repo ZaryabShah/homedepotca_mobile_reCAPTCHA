@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days_of_week">
+        <item>lun.</item>
+        <item>mar.</item>
+        <item>mer.</item>
+        <item>jeu.</item>
+        <item>ven.</item>
+        <item>sam.</item>
+        <item>dim.</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>x 0,25</item>
+        <item>x 0,5</item>
+        <item>x 0,75</item>
+        <item>Normal</item>
+        <item>x 1,25</item>
+        <item>x 1,5</item>
+        <item>x 2</item>
+    </string-array>
+    <string-array name="months_of_year">
+        <item>jan.</item>
+        <item>fév.</item>
+        <item>mar.</item>
+        <item>avr.</item>
+        <item>mai</item>
+        <item>jun.</item>
+        <item>jul.</item>
+        <item>aoû.</item>
+        <item>sep.</item>
+        <item>oct.</item>
+        <item>nov.</item>
+        <item>déc.</item>
+    </string-array>
+    <string-array name="questions_sort_options">
+        <item>Questions comptant le plus de réponses</item>
+        <item>Questions les plus récentes</item>
+        <item>Questions les moins récentes</item>
+        <item>Réponses les plus récentes</item>
+    </string-array>
+</resources>

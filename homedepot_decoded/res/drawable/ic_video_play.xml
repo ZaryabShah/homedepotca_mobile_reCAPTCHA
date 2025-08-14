@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_video_thumbnail_bg" />
+    <item android:gravity="center" android:height="80.0dip" android:width="80.0dip" android:drawable="@drawable/ic_hdvc_logo_videos" />
+    <item android:gravity="center" android:height="50.0dip" android:width="50.0dip" android:drawable="@drawable/ic_play" />
+</layer-list>

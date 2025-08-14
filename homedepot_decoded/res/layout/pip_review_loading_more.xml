@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/dark_grey" android:layout_gravity="center" android:id="@id/loading_more_tv" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pip_loading_more_reviews" style="@style/Normal" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_more_webview" android:scrollbars="none" android:layout_width="100.0dip" android:layout_height="30.0dip" android:indeterminate="true" style="@style/OrangeIndeterminateProgress" />
+    <TextView android:textColor="@color/dark_grey" android:layout_gravity="center" android:id="@id/no_more_tv" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pip_end_of_reviews" style="@style/Normal" />
+</LinearLayout>

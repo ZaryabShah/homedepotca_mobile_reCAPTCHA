@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:background="@color/white" android:padding="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:background="@drawable/layer_list_order_details_alert_blue_steel" android:padding="@dimen/margin_xlarge" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/order_details_not_available_header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/App.Bold.DarkGrey.16" />
+        <TextView android:id="@id/tv_description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_regular" android:text="@string/order_details_not_available_description" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_header" style="@style/App.Regular.DarkGrey.14" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

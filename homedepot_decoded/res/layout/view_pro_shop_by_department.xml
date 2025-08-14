@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/light_gray_f2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_title" android:padding="@dimen/margin_xlarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shop_by_department" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/App.Bold.DarkGrey.18" />
+    <TextView android:gravity="center" android:id="@id/tv_view_all" android:background="?android:selectableItemBackground" android:padding="@dimen/margin_xlarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recent_purchase_view_all" app:layout_constraintBaseline_toBaselineOf="@id/tv_title" app:layout_constraintEnd_toEndOf="parent" style="@style/App.Regular.Bluesteel.16" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title" app:spanCount="2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

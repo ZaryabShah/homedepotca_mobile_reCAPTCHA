@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.brightcove.player.mediacontroller.BrightcoveSeekBar android:id="@id/seek_bar" android:focusable="true" android:visibility="gone" android:indeterminateOnly="false" android:splitTrack="false" android:contextClickable="true" bmc:brightcove_marker_color="@color/bmc_seekbar_marker" bmc:brightcove_marker_width="5.0" style="@style/BrightcoveSeekBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bmc="http://schemas.android.com/apk/res-auto" />

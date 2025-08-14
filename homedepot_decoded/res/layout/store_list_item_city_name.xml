@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/selector_white_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/grey" android:gravity="center_vertical" android:id="@id/store_list_item_city" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="15.0dip" android:text="TextView" style="@style/Normal" />
+    <include android:id="@id/view_more_bottom_divider" android:visibility="visible" layout="@layout/divider_view_horizontal" />
+</LinearLayout>

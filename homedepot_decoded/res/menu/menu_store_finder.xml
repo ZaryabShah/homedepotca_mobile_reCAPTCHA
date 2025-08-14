@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/search_stores" android:title="@string/toolbar_store_finder_search" app:actionLayout="@layout/toolbar_store_finder_search" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_my_location_black" android:id="@id/toolbar_location" android:title="location" android:iconTint="@color/white" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_cart_black" android:id="@id/toolbar_cart" android:title="@string/toolbar_string_cart" android:actionLayout="@layout/cart_menu_item_white" app:showAsAction="always" />
+</menu>

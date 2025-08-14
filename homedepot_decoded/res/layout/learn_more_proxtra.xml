@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/gray" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="•" style="@style/Normal14" />
+    <TextView android:textColor="@color/c20" android:id="@id/learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/learn_more_about_pro_business" style="@style/Normal14" />
+</LinearLayout>

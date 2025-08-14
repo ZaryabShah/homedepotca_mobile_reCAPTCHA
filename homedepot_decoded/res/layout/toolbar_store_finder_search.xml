@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="start" android:layout_gravity="start" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="210.0dip" android:layout_height="fill_parent" android:weightSum="1.0">
+        <EditText android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/black" android:textColorHint="@color/c3" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/storeFinderSearchEditText" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="?actionBarSize" android:hint="@string/city_province_postal_code_or_store" android:layout_weight="1.0" android:inputType="textFilter" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/shape_orange_cursor" android:paddingEnd="@dimen/margin_small" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/iconClear" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_clear_grey" android:onClick="onSearchClearClick" android:contentDescription="@string/clear_search_term" />
+    </LinearLayout>
+</RelativeLayout>

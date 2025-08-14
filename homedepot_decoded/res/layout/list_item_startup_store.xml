@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textColor="@color/dark_grey" android:id="@id/favorite_store_list_item_store" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Bold16" />
+        <TextView android:textColor="@color/grey" android:id="@id/favorite_store_list_item_citystatepin" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Normal" />
+    </LinearLayout>
+    <CheckBox android:id="@id/store_list_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:clickable="false" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@drawable/selector_checkbox_compare" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/grey" android:id="@id/favorite_store_list_item_distance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="0.00 Mi" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Small" />
+</RelativeLayout>

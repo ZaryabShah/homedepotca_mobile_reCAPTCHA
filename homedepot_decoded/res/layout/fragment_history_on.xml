@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/my_history_on_LL" android:background="@drawable/selector_transparent_white_back" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black" android:id="@id/my_history_label" android:paddingLeft="10.0dip" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/my_history_label" style="@style/Bold16" />
+    <include layout="@layout/divider_view_horizontal" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/myhistory_listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="#00000000" android:divider="@color/grey_divider" android:dividerHeight="0.5dip" />
+    </RelativeLayout>
+</LinearLayout>

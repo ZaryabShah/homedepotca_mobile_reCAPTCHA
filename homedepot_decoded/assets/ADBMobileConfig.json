@@ -1,0 +1,39 @@
+{
+  "lastModified": "2017-12-15T18:43:52.168Z",
+  "marketingCloud": {
+    "org": "93761CFE5329579E0A490D45@AdobeOrg"
+  },
+  "target": {
+    "clientCode": "homedepotcanada",
+    "timeout": 5
+  },
+  "audienceManager": {
+    "server": "",
+    "analyticsForwardingEnabled": true,
+    "timeout": 5
+  },
+  "acquisition": {
+    "server": "c00.adobe.com",
+    "appid": "76c02b755f3b27e785902932fbf494e3791d1a0c503bf06204a01b0461b6bf60"
+  },
+  "analytics": {
+    "rsids": "homedepotcadroid",
+    "server": "homedepotca.sc.omtrdc.net",
+    "ssl": true,
+    "offlineEnabled": false,
+    "charset": "UTF-8",
+    "lifecycleTimeout": 300,
+    "privacyDefault": "optedin",
+    "batchLimit": 0,
+    "timezone": "EST",
+    "timezoneOffset": -300,
+    "referrerTimeout": 5,
+    "backdateSessionInfo": false,
+    "poi": []
+  },
+  "messages": [],
+  "remotes": {
+    "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5646120364746d10be008b63.json",
+    "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5646120264746d10c10089eb.json"
+  }
+}

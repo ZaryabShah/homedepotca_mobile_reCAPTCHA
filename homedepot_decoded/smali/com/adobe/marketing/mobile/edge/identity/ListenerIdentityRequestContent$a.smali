@@ -1,0 +1,67 @@
+.class public final Lcom/adobe/marketing/mobile/edge/identity/ListenerIdentityRequestContent$a;
+.super Ljava/lang/Object;
+.source "ListenerIdentityRequestContent.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/adobe/marketing/mobile/edge/identity/ListenerIdentityRequestContent;->c(Lcom/adobe/marketing/mobile/Event;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic d:Lcom/adobe/marketing/mobile/edge/identity/IdentityExtension;
+
+.field public final synthetic e:Lcom/adobe/marketing/mobile/Event;
+
+
+# direct methods
+.method public constructor <init>(Lcom/adobe/marketing/mobile/edge/identity/IdentityExtension;Lcom/adobe/marketing/mobile/Event;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/adobe/marketing/mobile/edge/identity/ListenerIdentityRequestContent$a;->d:Lcom/adobe/marketing/mobile/edge/identity/IdentityExtension;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lcom/adobe/marketing/mobile/edge/identity/ListenerIdentityRequestContent$a;->e:Lcom/adobe/marketing/mobile/Event;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/adobe/marketing/mobile/edge/identity/ListenerIdentityRequestContent$a;->d:Lcom/adobe/marketing/mobile/edge/identity/IdentityExtension;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lcom/adobe/marketing/mobile/edge/identity/ListenerIdentityRequestContent$a;->e:Lcom/adobe/marketing/mobile/Event;
+
+    .line 4
+    .line 5
+    invoke-virtual {v0, v1}, Lcom/adobe/marketing/mobile/edge/identity/IdentityExtension;->h(Lcom/adobe/marketing/mobile/Event;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

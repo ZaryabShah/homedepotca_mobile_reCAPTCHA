@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/white" android:paddingBottom="@dimen/size_52dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/margin_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <include android:id="@id/pdp_header" layout="@layout/pdp_header" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/specifications_recyclerView" android:background="@drawable/selector_white_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_small" android:cacheColorHint="#ffffffff" android:divider="@color/grey_divider" android:dividerHeight="0.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

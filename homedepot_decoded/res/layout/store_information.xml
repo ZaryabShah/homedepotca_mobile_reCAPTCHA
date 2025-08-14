@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/store_detail_store_info_RL" android:background="@drawable/shape_default_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/store_name_LL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textColor="@color/black" android:id="@id/store_detail_store_name_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Midtown" style="@style/Bold21" />
+        <TextView android:textColor="@color/RGB85" android:id="@id/store_detail_store_address_TV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="22.0dip" android:text="2450 Cumberland Pkwy Atlanta, GA 30308" style="@style/Small" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/store_id_LL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/store_name_LL" android:layout_alignLeft="@id/store_name_LL">
+        <TextView android:textColor="@color/black" android:id="@id/store_id_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/labelStoreNumber.text" style="@style/NormalBold" />
+        <TextView android:textColor="@color/black" android:id="@id/store_id_value_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="121" style="@style/Normal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/store_detail_store_manager_LL" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/store_id_LL" android:layout_alignLeft="@id/store_id_LL">
+        <TextView android:textColor="@color/black" android:id="@id/store_detail_store_manager_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/store_detail_store_manager_label" style="@style/NormalBold" />
+        <TextView android:textColor="@color/RGB85" android:id="@id/store_detail_store_manager_name_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Jim Jimerson" style="@style/Small" />
+    </LinearLayout>
+    <TextView android:textColor="@color/black" android:gravity="bottom" android:id="@id/store_detail_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_below="@id/store_detail_store_manager_LL" android:layout_alignLeft="@id/store_detail_store_manager_LL" android:layout_centerVertical="true" style="@style/NormalBold" />
+    <RelativeLayout android:id="@id/directions_parent_RL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="22.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/store_detail_store_manager_LL" android:layout_alignLeft="@id/store_detail_store_manager_LL">
+        <LinearLayout android:orientation="horizontal" android:id="@id/direction_LL" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="onGetDirectionsClick">
+            <TextView android:textColor="@color/black" android:layout_gravity="center" android:id="@id/store_getdirections_TV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/labelGetDirections.text" style="@style/NormalBold" />
+            <ImageView android:layout_gravity="top" android:id="@id/get_direction_IV" android:background="?selectableItemBackground" android:paddingTop="2.0dip" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/cta_arw_24o" />
+        </LinearLayout>
+        <TextView android:textColor="@color/black" android:gravity="bottom" android:id="@id/store_detail_phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/NormalBold" />
+    </RelativeLayout>
+    <ImageButton android:theme="@style/BlackGreyImageButton2" android:id="@id/store_detail_call_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_marginRight="22.0dip" android:src="@drawable/ico_module_call" android:layout_below="@id/store_name_LL" android:layout_alignParentRight="true" android:onClick="onCallButtonClick" android:contentDescription="@string/cd_call_store" />
+</RelativeLayout>

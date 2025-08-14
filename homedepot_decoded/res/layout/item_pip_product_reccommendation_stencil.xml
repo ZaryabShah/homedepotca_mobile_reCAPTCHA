@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/item_product1_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_certona_stencil" />
+    <include android:id="@id/item_product2_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_xxlarge" app:layout_constraintStart_toEndOf="@id/item_product1_shimmer" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_certona_stencil" />
+    <include android:id="@id/item_product3_shimmer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_xxlarge" app:layout_constraintStart_toEndOf="@id/item_product2_shimmer" app:layout_constraintTop_toTopOf="parent" layout="@layout/item_certona_stencil" />
+</androidx.constraintlayout.widget.ConstraintLayout>
